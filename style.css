@@ -1,0 +1,128 @@
+/* @keyframes slideInleft {
+  
+    from{
+      transform: translateX(0%);  
+       
+    }
+    
+    to{transform: translateX(5%);
+        
+    }
+
+} */
+
+
+
+h1{
+       
+    /* animation-name: slideInleft ;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1s;
+    animation-duration: normal;
+    animation-fill-mode: both; */
+    /* font-family:; */
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+   
+}
+
+.TitrePRINCIPAL{
+   
+    
+    background: linear-gradient(90deg,rgb(249, 241, 6)1%,rgb(252, 132, 11)50%,rgb(237, 6, 245) 100%);
+    background-size: 5000px 400px;
+    animation: gradient 20s ease-out infinite;
+    padding: 25px 0;
+    height: 750px;
+
+    /*grid-column-start: 1;
+    grid-column-end: 3;
+    */
+    
+    order: 1;
+}
+
+@keyframes gradient{
+ 
+    0%{background-position:0 50%};
+    50%{background-position:100% 50%};
+    100%{background-position:0 50%};
+
+}
+/*body{   
+            
+    top: 10px; left: 100px; right: 100px;
+
+} */
+
+
+
+.SousTitreBachelor{
+    background-color: cyan;
+    color:rgb(0, 0, 0);
+    height: 30px ;
+    order:2;
+}
+
+.container{
+    /*Il ya deux type de display les display: flex pour flexbox et display: Grid pour ben Grids */
+    /* display: flex; */
+    flex-direction:column;
+    display:flex
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 800px; */
+    
+    text-align : center;
+    vertical-align : center;
+   
+}
+
+.Objectif{
+    background-color:bisque;
+    order: 3;
+    height: 750px;
+    
+}
+
+.Pro{
+    height: 750px;
+    order: 4;
+    background-color: chocolate;
+}
+
+
+.Information{
+    
+    height: 750px;
+    order: 4;
+    background-color: azure;
+}
+
+.Etudes{
+    background-color: aquamarine;
+    height: 750px;
+
+}
+
+.Compétence{
+   background-color: rgb(128, 128, 154);
+    height: 750px;
+
+}
+
+
+
+/*.footer {
+    background: linear-gradient(90deg,rgba(0,158,222,1) 0%,rgba(120,184,45,1) 100%);
+    background-size: auto;
+    color: #d12a2a;
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    padding: 25px 0;
+  }
+  
+    
+    
